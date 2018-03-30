@@ -1,6 +1,6 @@
 /* universal rules */
 
-html {
+* {
   font-family: "Helvetica";
   font-size: 22px;
   color: seashell;
@@ -12,13 +12,13 @@ html {
 
 .flex-container {
   display: flex;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid seashell;
+  height: 69px;
 }
 
 .title {
   justify-content: flex-start;
   flex-grow: 1;
-  padding-bottom: 5px;
 }
 
 .title img {
@@ -33,4 +33,19 @@ html {
 .nav-bar a {
   padding-right: 20px;
   color: white;
+}
+
+/* body */
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.text {
+  margin-top: 370px;
+  text-align: center;
 }
