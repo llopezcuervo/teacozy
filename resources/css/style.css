@@ -1,0 +1,36 @@
+/* universal rules */
+
+html {
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* navigation bar */
+
+.flex-container {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+.title {
+  justify-content: flex-start;
+  flex-grow: 1;
+  padding-bottom: 5px;
+}
+
+.title img {
+  height: 50px;
+}
+
+.nav-bar {
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.nav-bar a {
+  padding-right: 20px;
+  color: white;
+}
