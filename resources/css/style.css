@@ -2,16 +2,23 @@
 
 * {
   font-family: "Helvetica";
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+h4, p {
+  font-size: 22px;
 }
 
 /* navigation bar */
 
 .flex-container {
   display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: black;
   border-bottom: 1px solid seashell;
   height: 69px;
 }
@@ -33,19 +40,51 @@
 .nav-bar a {
   padding-right: 20px;
   color: white;
+  font-size: 22px;
 }
 
 /* body */
+
+.themastercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .flex-container1 {
   display: flex;
   flex-direction: column;
   background-image: url("../images/img-mission-background.jpg");
-  height: 700px;
+  background-repeat: no-repeat;
+  height: 450px;
   width: 1200px;
+  padding-top: 400px;
 }
 
 .text {
-  margin-top: 370px;
+  text-align: center;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.flex-container2a {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+
+.flex-container2a img {
+  height: 200px;
+  width: 300px;
+  padding: 0 15px;
+}
+
+.item p {
+  padding-left: 20px;
+  padding-bottom: 70px;
   text-align: center;
 }
